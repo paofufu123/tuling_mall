@@ -1,0 +1,68 @@
+amqp==5.1.1
+asgiref==3.7.2
+async-timeout==4.0.2
+backports.zoneinfo==0.2.1
+billiard==4.1.0
+boltons @ file:///croot/boltons_1677628692245/work
+brotlipy==0.7.0
+celery==5.3.1
+certifi @ file:///croot/certifi_1690232220950/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+click-didyoumean==0.3.0
+click-plugins==1.1.1
+click-repl==0.2.0
+conda @ file:///croot/conda_1694544150384/work
+conda-content-trust @ file:///tmp/abs_5952f1c8-355c-4855-ad2e-538535021ba5h26t22e5/croots/recipe/conda-content-trust_1658126371814/work
+conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1685032319139/work/src
+conda-package-handling @ file:///croot/conda-package-handling_1685024767917/work
+conda_package_streaming @ file:///croot/conda-package-streaming_1685019673878/work
+cryptography @ file:///croot/cryptography_1686613057838/work
+Django==2.2.6
+django-cors-headers==3.0.0
+django-crontab==0.7.1
+django-haystack==3.2.1
+django-redis==5.2.0
+elasticsearch==2.4.1
+fake-useragent==1.2.1
+fdfs-client-py @ file:///home/paofufu/Downloads/fdfs_client-py-master.zip#sha256=f036149e84ae3dcece4c4a2749aac93b6c77b2d1c6a6b43f5c7c8fb9e3dbb4c6
+idna @ file:///croot/idna_1666125576474/work
+importlib-resources==6.0.0
+itsdangerous==2.0.0
+jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
+jsonpointer==2.1
+kombu==5.3.1
+libmambapy @ file:///croot/mamba-split_1685993156657/work/libmambapy
+mutagen==1.40.0
+mysqlclient==2.1.1
+packaging @ file:///croot/packaging_1678965309396/work
+pickleshare==0.7.5
+Pillow==9.5.0
+pluggy @ file:///tmp/build/80754af9/pluggy_1648042571233/work
+prompt-toolkit==3.0.38
+pycosat @ file:///croot/pycosat_1666805502580/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodomex==3.18.0
+PyMySQL==1.1.0
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+python-alipay-sdk==3.3.0
+python-dateutil==2.8.2
+pytz==2023.3
+redis==5.0.0
+requests @ file:///croot/requests_1682607517574/work
+ruamel.yaml @ file:///croot/ruamel.yaml_1666304550667/work
+ruamel.yaml.clib @ file:///croot/ruamel.yaml.clib_1666302247304/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sqlparse==0.4.4
+toolz @ file:///croot/toolz_1667464077321/work
+tqdm @ file:///croot/tqdm_1679561862951/work
+typing_extensions==4.7.0
+tzdata==2023.3
+urllib3 @ file:///croot/urllib3_1686163155763/work
+uWSGI @ file:///croot/uwsgi_1688631110587/work
+vine==5.0.0
+wcwidth==0.2.6
+zipp==3.16.2
+zstandard @ file:///croot/zstandard_1677013143055/work
