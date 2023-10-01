@@ -87,7 +87,7 @@ tuling_mall        # 后端文件
 
 为了项目的顺利使用，您需要注册该平台，登录后，请特别关注【主账号ID】、【账户授权令牌】、【APPID】这三个内容
 
-![Image text](imgs/容联云.png)
+![容联云.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/容联云.png)
 
 ##### 1.2 测试号码
 
