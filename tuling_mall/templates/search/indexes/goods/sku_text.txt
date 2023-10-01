@@ -1,0 +1,4 @@
+# 模板设置
+{{ object.id }}
+{{ object.name }}
+{{ object.caption }}

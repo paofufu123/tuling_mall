@@ -1,0 +1,697 @@
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Sep 28 22:14:47 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43019 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x230fd80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x230fd80 pid: 10055 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10055)
+spawned uWSGI worker 1 (pid: 10084, cores: 2)
+spawned uWSGI worker 2 (pid: 10085, cores: 2)
+spawned uWSGI worker 3 (pid: 10087, cores: 2)
+spawned uWSGI worker 4 (pid: 10089, cores: 2)
+spawned uWSGI http 1 (pid: 10091)
+[pid: 10089|app: 0|req: 1/1] 172.26.192.1 () {44 vars in 799 bytes} [Thu Sep 28 14:15:35 2023] GET /carts/simple/ => generated 44 bytes in 199 msecs (HTTP/1.1 200) 7 headers in 296 bytes (1 switches on core 0)
+WARNING log 222 Not Found: /area/
+[pid: 10087|app: 0|req: 1/2] 172.26.192.1 () {38 vars in 730 bytes} [Thu Sep 28 14:15:46 2023] GET /area/ => generated 7306 bytes in 107 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 10087|app: 0|req: 2/3] 172.26.192.1 () {38 vars in 732 bytes} [Thu Sep 28 14:16:00 2023] GET /areas/ => generated 1772 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 116 bytes (1 switches on core 1)
+Thu Sep 28 14:20:49 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Thu Sep 28 14:20:49 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Thu Sep 28 22:21:06 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42325 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x11a9d80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x11a9d80 pid: 10300 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 10300)
+spawned uWSGI worker 1 (pid: 10322, cores: 2)
+spawned uWSGI worker 2 (pid: 10323, cores: 2)
+spawned uWSGI worker 3 (pid: 10325, cores: 2)
+spawned uWSGI worker 4 (pid: 10327, cores: 2)
+spawned uWSGI http 1 (pid: 10329)
+[pid: 10325|app: 0|req: 1/1] 172.26.192.1 () {40 vars in 763 bytes} [Thu Sep 28 14:21:23 2023] GET /areas/ => generated 1772 bytes in 99 msecs (HTTP/1.1 200) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 10325|app: 0|req: 2/2] 172.26.192.1 () {40 vars in 693 bytes} [Thu Sep 28 14:21:30 2023] GET /carts/simple/ => generated 44 bytes in 7 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 2/3] 172.26.192.1 () {40 vars in 701 bytes} [Thu Sep 28 14:21:34 2023] GET /browse_histories/ => generated 57 bytes in 157 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 2/4] 172.26.192.1 () {40 vars in 677 bytes} [Thu Sep 28 14:21:34 2023] GET /info/ => generated 57 bytes in 157 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 3/5] 172.26.192.1 () {44 vars in 744 bytes} [Thu Sep 28 14:21:41 2023] OPTIONS /login/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 4/6] 172.26.192.1 () {44 vars in 746 bytes} [Thu Sep 28 14:21:41 2023] POST /login/ => generated 27 bytes in 66 msecs (HTTP/1.1 200) 8 headers in 345 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 5/7] 172.26.192.1 () {40 vars in 737 bytes} [Thu Sep 28 14:21:42 2023] GET /carts/simple/ => generated 314 bytes in 66 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 6/8] 172.26.192.1 () {40 vars in 723 bytes} [Thu Sep 28 14:21:45 2023] GET /carts/ => generated 374 bytes in 36 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 8/9] 172.26.192.1 () {40 vars in 721 bytes} [Thu Sep 28 14:21:46 2023] GET /info/ => generated 141 bytes in 24 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 8/10] 172.26.192.1 () {40 vars in 745 bytes} [Thu Sep 28 14:21:46 2023] GET /browse_histories/ => generated 1305 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 9/11] 172.26.192.1 () {40 vars in 745 bytes} [Thu Sep 28 14:21:50 2023] GET /browse_histories/ => generated 1305 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 10322|app: 0|req: 1/12] 172.26.192.1 () {40 vars in 721 bytes} [Thu Sep 28 14:21:50 2023] GET /info/ => generated 141 bytes in 176 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10323|app: 0|req: 1/13] 172.26.192.1 () {40 vars in 778 bytes} [Thu Sep 28 14:24:16 2023] GET /search/?q=apple&page=1&page_size=6 => generated 1431 bytes in 628 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 11/14] 172.26.192.1 () {44 vars in 765 bytes} [Thu Sep 28 14:26:13 2023] OPTIONS /browse_histories/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 12/15] 172.26.192.1 () {44 vars in 765 bytes} [Thu Sep 28 14:26:13 2023] OPTIONS /detail/visit/157/ => generated 0 bytes in 4 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 13/16] 172.26.192.1 () {40 vars in 735 bytes} [Thu Sep 28 14:26:13 2023] GET /carts/simple/ => generated 314 bytes in 30 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 13/17] 172.26.192.1 () {44 vars in 811 bytes} [Thu Sep 28 14:26:13 2023] POST /browse_histories/ => generated 28 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 10325|app: 0|req: 3/18] 172.26.192.1 () {44 vars in 810 bytes} [Thu Sep 28 14:26:13 2023] POST /detail/visit/157/ => generated 27 bytes in 31 msecs (HTTP/1.1 200) 6 headers in 211 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 14/19] 172.26.192.1 () {44 vars in 743 bytes} [Thu Sep 28 14:26:15 2023] OPTIONS /carts/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 10325|app: 0|req: 4/20] 172.26.192.1 () {44 vars in 789 bytes} [Thu Sep 28 14:26:15 2023] POST /carts/ => generated 27 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 15/21] 172.26.192.1 () {40 vars in 803 bytes} [Thu Sep 28 14:26:21 2023] GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 => generated 1684 bytes in 150 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 10325|app: 0|req: 5/22] 172.26.192.1 () {44 vars in 765 bytes} [Thu Sep 28 14:26:23 2023] OPTIONS /detail/visit/115/ => generated 0 bytes in 5 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 17/23] 172.26.192.1 () {44 vars in 811 bytes} [Thu Sep 28 14:26:23 2023] POST /browse_histories/ => generated 28 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 17/24] 172.26.192.1 () {40 vars in 736 bytes} [Thu Sep 28 14:26:23 2023] GET /carts/simple/ => generated 523 bytes in 25 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10325|app: 0|req: 6/25] 172.26.192.1 () {44 vars in 810 bytes} [Thu Sep 28 14:26:23 2023] POST /detail/visit/115/ => generated 27 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 211 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 18/26] 172.26.192.1 () {44 vars in 789 bytes} [Thu Sep 28 14:26:25 2023] POST /carts/ => generated 27 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 19/27] 172.26.192.1 () {40 vars in 722 bytes} [Thu Sep 28 14:26:30 2023] GET /carts/ => generated 643 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 20/28] 172.26.192.1 () {40 vars in 736 bytes} [Thu Sep 28 14:26:35 2023] GET /carts/simple/ => generated 523 bytes in 47 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 21/29] 172.26.192.1 () {40 vars in 722 bytes} [Thu Sep 28 14:26:36 2023] GET /carts/ => generated 643 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 22/30] 172.26.192.1 () {40 vars in 747 bytes} [Thu Sep 28 14:27:14 2023] GET /orders/settlement/ => generated 1078 bytes in 40 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 23/31] 172.26.192.1 () {44 vars in 760 bytes} [Thu Sep 28 14:27:19 2023] OPTIONS /orders/commit/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 24/32] 172.26.192.1 () {44 vars in 806 bytes} [Thu Sep 28 14:27:19 2023] POST /orders/commit/ => generated 51 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 10327|app: 0|req: 25/33] 172.26.192.1 () {44 vars in 789 bytes} [Thu Sep 28 14:27:25 2023] PUT /carts/ => generated 371 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10325|app: 0|req: 7/34] 172.26.192.1 () {40 vars in 747 bytes} [Thu Sep 28 14:27:27 2023] GET /orders/settlement/ => generated 765 bytes in 59 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 10327|app: 0|req: 26/35] 172.26.192.1 () {44 vars in 806 bytes} [Thu Sep 28 14:27:31 2023] POST /orders/commit/ => generated 51 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:05:28 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36559 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x24072e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x24072e0 pid: 1306 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1306)
+spawned uWSGI worker 1 (pid: 1334, cores: 2)
+spawned uWSGI worker 2 (pid: 1335, cores: 2)
+spawned uWSGI worker 3 (pid: 1337, cores: 2)
+spawned uWSGI worker 4 (pid: 1339, cores: 2)
+spawned uWSGI http 1 (pid: 1341)
+WARNING log 222 Not Found: /
+[pid: 1339|app: 0|req: 1/1] 172.26.192.1 () {36 vars in 691 bytes} [Fri Sep 29 03:06:31 2023] GET / => generated 7273 bytes in 208 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+WARNING log 222 Not Found: /favicon.ico
+[pid: 1339|app: 0|req: 2/2] 172.26.192.1 () {36 vars in 650 bytes} [Fri Sep 29 03:06:32 2023] GET /favicon.ico => generated 7324 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 3/3] 172.26.192.1 () {36 vars in 703 bytes} [Fri Sep 29 03:06:39 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 4 headers in 116 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 4/4] 172.26.192.1 () {36 vars in 702 bytes} [Fri Sep 29 03:08:12 2023] GET /index/ => generated 126345 bytes in 188 msecs (HTTP/1.1 200) 4 headers in 126 bytes (1 switches on core 1)
+WARNING log 222 Not Found: /goods/1
+[pid: 1339|app: 0|req: 5/5] 172.26.192.1 () {36 vars in 704 bytes} [Fri Sep 29 03:08:22 2023] GET /goods/1 => generated 7312 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 0)
+WARNING log 222 Not Found: /detail
+[pid: 1339|app: 0|req: 6/6] 172.26.192.1 () {36 vars in 703 bytes} [Fri Sep 29 03:08:34 2023] GET /detail => generated 7309 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 116 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 7/7] 172.26.192.1 () {36 vars in 629 bytes} [Fri Sep 29 03:09:04 2023] GET /carts/simple/ => generated 44 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 122 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 8/8] 172.26.192.1 () {42 vars in 726 bytes} [Fri Sep 29 03:09:08 2023] GET /carts/simple/ => generated 44 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 9/9] 172.26.192.1 () {38 vars in 707 bytes} [Fri Sep 29 03:09:15 2023] GET /search/?q=huawei&page=1&page_size=6 => generated 1654 bytes in 292 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 10/10] 172.26.192.1 () {38 vars in 705 bytes} [Fri Sep 29 03:09:19 2023] GET /search/?q=apple&page=1&page_size=6 => generated 1431 bytes in 67 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 11/11] 172.26.192.1 () {44 vars in 744 bytes} [Fri Sep 29 03:09:33 2023] OPTIONS /login/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 1337|app: 0|req: 1/12] 172.26.192.1 () {42 vars in 717 bytes} [Fri Sep 29 03:09:33 2023] POST /login/ => generated 27 bytes in 167 msecs (HTTP/1.1 200) 8 headers in 345 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 12/13] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:09:34 2023] GET /carts/simple/ => generated 523 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 1337|app: 0|req: 3/14] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:09:37 2023] GET /info/ => generated 141 bytes in 29 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 1337|app: 0|req: 3/15] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:09:37 2023] GET /browse_histories/ => generated 1305 bytes in 45 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 13/16] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:09:47 2023] GET /carts/ => generated 644 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 14/17] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:09:49 2023] GET /info/ => generated 141 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 1334|app: 0|req: 1/18] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:09:49 2023] GET /browse_histories/ => generated 1305 bytes in 157 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 16/19] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:09:53 2023] GET /areas/ => generated 1772 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1339|app: 0|req: 16/20] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:09:53 2023] GET /addresses/ => generated 83227 bytes in 83 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 0)
+[pid: 1337|app: 0|req: 4/21] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:09:56 2023] GET /areas/ => generated 1772 bytes in 5 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1339|app: 0|req: 17/22] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:09:56 2023] GET /addresses/ => generated 83227 bytes in 40 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+[pid: 1337|app: 0|req: 5/23] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:09:58 2023] GET /info/ => generated 141 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 18/24] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:09:58 2023] GET /browse_histories/ => generated 1305 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1339|app: 0|req: 19/25] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:10:00 2023] GET /addresses/ => generated 83227 bytes in 46 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+[pid: 1335|app: 0|req: 1/26] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:10:00 2023] GET /areas/ => generated 1772 bytes in 126 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 20/27] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:10:17 2023] GET /areas/350000/ => generated 465 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 212 bytes (1 switches on core 0)
+[pid: 1337|app: 0|req: 6/28] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:10:18 2023] GET /areas/350100/ => generated 649 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 212 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 21/29] 172.26.192.1 () {44 vars in 766 bytes} [Fri Sep 29 03:10:38 2023] OPTIONS /addresses/create/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+ERROR log 222 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view areas.views.CreateAddressView didn't return an HttpResponse object. It returned None instead.
+[pid: 1337|app: 0|req: 7/30] 172.26.192.1 () {44 vars in 813 bytes} [Fri Sep 29 03:10:38 2023] POST /addresses/create/ => generated 55152 bytes in 28 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 22/31] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:10:44 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1337|app: 0|req: 8/32] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:10:44 2023] GET /addresses/ => generated 83258 bytes in 47 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 23/33] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:10:55 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1337|app: 0|req: 9/34] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:10:55 2023] GET /addresses/ => generated 83258 bytes in 34 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 24/35] 172.26.192.1 () {44 vars in 790 bytes} [Fri Sep 29 03:11:04 2023] GET /areas/110000/ => generated 97 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 211 bytes (1 switches on core 0)
+[pid: 1339|app: 0|req: 25/36] 172.26.192.1 () {44 vars in 790 bytes} [Fri Sep 29 03:11:05 2023] GET /areas/110100/ => generated 799 bytes in 10 msecs (HTTP/1.1 200) 6 headers in 212 bytes (1 switches on core 1)
+[pid: 1339|app: 0|req: 26/37] 172.26.192.1 () {48 vars in 819 bytes} [Fri Sep 29 03:11:17 2023] OPTIONS /addresses/create/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/create/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view areas.views.CreateAddressView didn't return an HttpResponse object. It returned None instead.
+[pid: 1339|app: 0|req: 27/38] 172.26.192.1 () {48 vars in 866 bytes} [Fri Sep 29 03:11:17 2023] POST /addresses/create/ => generated 55413 bytes in 30 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+Fri Sep 29 03:15:47 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:15:47 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:15:50 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35571 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0xd442e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xd442e0 pid: 1887 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1887)
+spawned uWSGI worker 1 (pid: 1891, cores: 2)
+spawned uWSGI worker 2 (pid: 1892, cores: 2)
+spawned uWSGI worker 3 (pid: 1894, cores: 2)
+spawned uWSGI worker 4 (pid: 1897, cores: 2)
+spawned uWSGI http 1 (pid: 1898)
+[pid: 1897|app: 0|req: 1/1] 172.26.192.1 () {48 vars in 819 bytes} [Fri Sep 29 03:16:01 2023] OPTIONS /addresses/create/ => generated 0 bytes in 39 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 1897|app: 0|req: 2/2] 172.26.192.1 () {48 vars in 866 bytes} [Fri Sep 29 03:16:01 2023] POST /addresses/create/ => generated 109 bytes in 67 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1897|app: 0|req: 3/3] 172.26.192.1 () {44 vars in 784 bytes} [Fri Sep 29 03:16:02 2023] GET /addresses/ => generated 83593 bytes in 42 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 0)
+[pid: 1891|app: 0|req: 1/4] 172.26.192.1 () {44 vars in 776 bytes} [Fri Sep 29 03:16:02 2023] GET /areas/ => generated 1772 bytes in 159 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1897|app: 0|req: 4/5] 172.26.192.1 () {44 vars in 784 bytes} [Fri Sep 29 03:16:24 2023] GET /addresses/ => generated 83593 bytes in 43 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+[pid: 1892|app: 0|req: 1/6] 172.26.192.1 () {44 vars in 776 bytes} [Fri Sep 29 03:16:24 2023] GET /areas/ => generated 1772 bytes in 116 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 1892|app: 0|req: 2/7] 172.26.192.1 () {44 vars in 790 bytes} [Fri Sep 29 03:16:36 2023] GET /areas/110000/ => generated 97 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 211 bytes (1 switches on core 1)
+[pid: 1897|app: 0|req: 5/8] 172.26.192.1 () {44 vars in 790 bytes} [Fri Sep 29 03:16:37 2023] GET /areas/110100/ => generated 799 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 212 bytes (1 switches on core 0)
+[pid: 1897|app: 0|req: 6/9] 172.26.192.1 () {48 vars in 819 bytes} [Fri Sep 29 03:16:50 2023] OPTIONS /addresses/create/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 1897|app: 0|req: 7/10] 172.26.192.1 () {48 vars in 866 bytes} [Fri Sep 29 03:16:50 2023] POST /addresses/create/ => generated 109 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 1897|app: 0|req: 9/11] 172.26.192.1 () {44 vars in 775 bytes} [Fri Sep 29 03:17:02 2023] GET /areas/ => generated 1772 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+ERROR log 222 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/paofufu/Desktop/NewProject/tuling_mall/apps/areas/views.py", line 176, in get
+    default_address = user.default_address
+  File "/home/paofufu/miniconda3/lib/python3.8/site-packages/django/utils/functional.py", line 257, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'default_address'
+[pid: 1897|app: 0|req: 9/12] 172.26.192.1 () {44 vars in 783 bytes} [Fri Sep 29 03:17:02 2023] GET /addresses/ => generated 83629 bytes in 59 msecs (HTTP/1.1 500) 6 headers in 234 bytes (1 switches on core 1)
+Fri Sep 29 03:18:26 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:18:26 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:18:38 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37671 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x20e22e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20e22e0 pid: 2133 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2133)
+spawned uWSGI worker 1 (pid: 2156, cores: 2)
+spawned uWSGI worker 2 (pid: 2158, cores: 2)
+spawned uWSGI worker 3 (pid: 2160, cores: 2)
+spawned uWSGI worker 4 (pid: 2161, cores: 2)
+spawned uWSGI http 1 (pid: 2163)
+[pid: 2160|app: 0|req: 1/1] 172.26.192.1 () {44 vars in 776 bytes} [Fri Sep 29 03:18:46 2023] GET /areas/ => generated 1772 bytes in 181 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 1/2] 172.26.192.1 () {44 vars in 784 bytes} [Fri Sep 29 03:18:46 2023] GET /addresses/ => generated 1636 bytes in 229 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 2/3] 172.26.192.1 () {46 vars in 760 bytes} [Fri Sep 29 03:19:09 2023] OPTIONS /addresses/3/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 2160|app: 0|req: 2/4] 172.26.192.1 () {44 vars in 791 bytes} [Fri Sep 29 03:19:09 2023] DELETE /addresses/3/ => generated 27 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 1)
+[pid: 2161|app: 0|req: 3/5] 172.26.192.1 () {42 vars in 701 bytes} [Fri Sep 29 03:19:10 2023] GET /addresses/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 4/6] 172.26.192.1 () {42 vars in 693 bytes} [Fri Sep 29 03:19:10 2023] GET /areas/ => generated 1772 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+[pid: 2161|app: 0|req: 5/7] 172.26.192.1 () {42 vars in 701 bytes} [Fri Sep 29 03:19:13 2023] GET /addresses/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 6/8] 172.26.192.1 () {42 vars in 693 bytes} [Fri Sep 29 03:19:13 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+[pid: 2161|app: 0|req: 7/9] 172.26.192.1 () {44 vars in 734 bytes} [Fri Sep 29 03:19:27 2023] OPTIONS /login/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 425 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 8/10] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:19:27 2023] POST /login/ => generated 27 bytes in 59 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 1)
+[pid: 2161|app: 0|req: 9/11] 172.26.192.1 () {38 vars in 654 bytes} [Fri Sep 29 03:19:28 2023] GET /carts/simple/ => generated 44 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 10/12] 172.26.192.1 () {38 vars in 638 bytes} [Fri Sep 29 03:19:35 2023] GET /info/ => generated 57 bytes in 0 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2156|app: 0|req: 1/13] 172.26.192.1 () {38 vars in 662 bytes} [Fri Sep 29 03:19:35 2023] GET /browse_histories/ => generated 57 bytes in 147 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 11/14] 172.26.192.1 () {48 vars in 787 bytes} [Fri Sep 29 03:20:02 2023] OPTIONS /login/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 425 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 12/15] 172.26.192.1 () {46 vars in 760 bytes} [Fri Sep 29 03:20:02 2023] POST /login/ => generated 27 bytes in 59 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 1)
+[pid: 2161|app: 0|req: 13/16] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:20:03 2023] GET /carts/simple/ => generated 44 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2161|app: 0|req: 14/17] 172.26.192.1 () {42 vars in 691 bytes} [Fri Sep 29 03:20:08 2023] GET /info/ => generated 57 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2160|app: 0|req: 3/18] 172.26.192.1 () {42 vars in 715 bytes} [Fri Sep 29 03:20:08 2023] GET /browse_histories/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+Fri Sep 29 03:20:26 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:20:26 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:20:48 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35937 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0xcd52e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xcd52e0 pid: 2467 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2467)
+spawned uWSGI worker 1 (pid: 2489, cores: 2)
+spawned uWSGI worker 2 (pid: 2490, cores: 2)
+spawned uWSGI worker 3 (pid: 2492, cores: 2)
+spawned uWSGI worker 4 (pid: 2494, cores: 2)
+spawned uWSGI http 1 (pid: 2497)
+[pid: 2494|app: 0|req: 1/1] 172.26.192.1 () {44 vars in 798 bytes} [Fri Sep 29 03:21:11 2023] GET /carts/simple/ => generated 523 bytes in 133 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 2/2] 172.26.192.1 () {42 vars in 696 bytes} [Fri Sep 29 03:21:14 2023] OPTIONS /logout/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 3/3] 172.26.192.1 () {40 vars in 727 bytes} [Fri Sep 29 03:21:14 2023] DELETE /logout/ => generated 27 bytes in 7 msecs (HTTP/1.1 200) 8 headers in 380 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 4/4] 172.26.192.1 () {48 vars in 796 bytes} [Fri Sep 29 03:21:24 2023] OPTIONS /login/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 5/5] 172.26.192.1 () {46 vars in 769 bytes} [Fri Sep 29 03:21:24 2023] POST /login/ => generated 27 bytes in 58 msecs (HTTP/1.1 200) 8 headers in 345 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 6/6] 172.26.192.1 () {44 vars in 790 bytes} [Fri Sep 29 03:21:25 2023] GET /carts/simple/ => generated 523 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 8/7] 172.26.192.1 () {44 vars in 774 bytes} [Fri Sep 29 03:21:30 2023] GET /info/ => generated 141 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 8/8] 172.26.192.1 () {44 vars in 798 bytes} [Fri Sep 29 03:21:30 2023] GET /browse_histories/ => generated 1305 bytes in 37 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 10/9] 172.26.192.1 () {44 vars in 776 bytes} [Fri Sep 29 03:21:33 2023] GET /areas/ => generated 1772 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 10/10] 172.26.192.1 () {44 vars in 784 bytes} [Fri Sep 29 03:21:33 2023] GET /addresses/ => generated 1376 bytes in 56 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 11/11] 172.26.192.1 () {46 vars in 760 bytes} [Fri Sep 29 03:21:39 2023] OPTIONS /addresses/6/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 2492|app: 0|req: 1/12] 172.26.192.1 () {44 vars in 791 bytes} [Fri Sep 29 03:21:39 2023] DELETE /addresses/6/ => generated 27 bytes in 104 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 13/13] 172.26.192.1 () {42 vars in 701 bytes} [Fri Sep 29 03:21:40 2023] GET /addresses/ => generated 57 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 13/14] 172.26.192.1 () {42 vars in 693 bytes} [Fri Sep 29 03:21:40 2023] GET /areas/ => generated 1772 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 14/15] 172.26.192.1 () {42 vars in 701 bytes} [Fri Sep 29 03:21:56 2023] GET /addresses/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 15/16] 172.26.192.1 () {42 vars in 693 bytes} [Fri Sep 29 03:21:56 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 16/17] 172.26.192.1 () {42 vars in 701 bytes} [Fri Sep 29 03:22:00 2023] GET /addresses/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 17/18] 172.26.192.1 () {42 vars in 693 bytes} [Fri Sep 29 03:22:00 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 19/20] 172.26.192.1 () {42 vars in 715 bytes} [Fri Sep 29 03:22:02 2023] GET /browse_histories/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 19/20] 172.26.192.1 () {42 vars in 691 bytes} [Fri Sep 29 03:22:02 2023] GET /info/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2492|app: 0|req: 2/21] 172.26.192.1 () {48 vars in 786 bytes} [Fri Sep 29 03:23:06 2023] OPTIONS /login/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 425 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 20/22] 172.26.192.1 () {46 vars in 759 bytes} [Fri Sep 29 03:23:06 2023] POST /login/ => generated 27 bytes in 72 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 21/23] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:23:07 2023] GET /carts/simple/ => generated 44 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2492|app: 0|req: 3/24] 172.26.192.1 () {42 vars in 691 bytes} [Fri Sep 29 03:23:22 2023] GET /info/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2490|app: 0|req: 1/25] 172.26.192.1 () {42 vars in 715 bytes} [Fri Sep 29 03:23:22 2023] GET /browse_histories/ => generated 57 bytes in 172 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 22/26] 172.26.192.1 () {48 vars in 787 bytes} [Fri Sep 29 03:23:29 2023] OPTIONS /login/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 425 bytes (1 switches on core 0)
+[pid: 2494|app: 0|req: 23/27] 172.26.192.1 () {46 vars in 760 bytes} [Fri Sep 29 03:23:29 2023] POST /login/ => generated 27 bytes in 62 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 1)
+[pid: 2494|app: 0|req: 24/28] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:23:30 2023] GET /carts/simple/ => generated 44 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+Fri Sep 29 03:24:46 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:24:46 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:24:50 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44711 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x24242e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x24242e0 pid: 2902 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2902)
+spawned uWSGI worker 1 (pid: 2907, cores: 2)
+spawned uWSGI worker 2 (pid: 2908, cores: 2)
+spawned uWSGI worker 3 (pid: 2910, cores: 2)
+spawned uWSGI worker 4 (pid: 2912, cores: 2)
+spawned uWSGI http 1 (pid: 2915)
+[pid: 2912|app: 0|req: 1/1] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:25:06 2023] GET /carts/simple/ => generated 44 bytes in 245 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 2/2] 172.26.192.1 () {48 vars in 787 bytes} [Fri Sep 29 03:25:16 2023] OPTIONS /login/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 425 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 3/3] 172.26.192.1 () {46 vars in 760 bytes} [Fri Sep 29 03:25:16 2023] POST /login/ => generated 27 bytes in 61 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 4/4] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:25:17 2023] GET /carts/simple/ => generated 44 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 5/5] 172.26.192.1 () {42 vars in 690 bytes} [Fri Sep 29 03:25:31 2023] GET /info/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 6/6] 172.26.192.1 () {42 vars in 714 bytes} [Fri Sep 29 03:25:31 2023] GET /browse_histories/ => generated 57 bytes in 0 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 7/7] 172.26.192.1 () {38 vars in 642 bytes} [Fri Sep 29 03:25:52 2023] GET /carts/simple/ => generated 44 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 8/8] 172.26.192.1 () {48 vars in 785 bytes} [Fri Sep 29 03:26:02 2023] OPTIONS /login/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 9/9] 172.26.192.1 () {46 vars in 758 bytes} [Fri Sep 29 03:26:02 2023] POST /login/ => generated 27 bytes in 55 msecs (HTTP/1.1 200) 8 headers in 345 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 10/10] 172.26.192.1 () {44 vars in 778 bytes} [Fri Sep 29 03:26:02 2023] GET /carts/simple/ => generated 523 bytes in 11 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 12/11] 172.26.192.1 () {44 vars in 773 bytes} [Fri Sep 29 03:26:37 2023] GET /info/ => generated 141 bytes in 56 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 12/12] 172.26.192.1 () {44 vars in 797 bytes} [Fri Sep 29 03:26:37 2023] GET /browse_histories/ => generated 1305 bytes in 62 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 13/13] 172.26.192.1 () {44 vars in 768 bytes} [Fri Sep 29 03:27:31 2023] GET /carts/simple/ => generated 523 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 15/14] 172.26.192.1 () {44 vars in 773 bytes} [Fri Sep 29 03:27:50 2023] GET /info/ => generated 141 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 15/15] 172.26.192.1 () {44 vars in 797 bytes} [Fri Sep 29 03:27:50 2023] GET /browse_histories/ => generated 1305 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 16/16] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:28:07 2023] GET /carts/simple/ => generated 523 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 17/17] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:28:10 2023] GET /info/ => generated 141 bytes in 9 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 2910|app: 0|req: 1/18] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:28:10 2023] GET /browse_histories/ => generated 1305 bytes in 148 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 2910|app: 0|req: 2/19] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:28:11 2023] GET /areas/ => generated 1772 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 18/20] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:28:11 2023] GET /addresses/ => generated 1116 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 19/21] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:28:18 2023] OPTIONS /addresses/5/ => generated 0 bytes in 0 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 0)
+[pid: 2910|app: 0|req: 3/22] 172.26.192.1 () {40 vars in 738 bytes} [Fri Sep 29 03:28:18 2023] DELETE /addresses/5/ => generated 27 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 21/23] 172.26.192.1 () {38 vars in 648 bytes} [Fri Sep 29 03:28:19 2023] GET /addresses/ => generated 57 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 21/24] 172.26.192.1 () {38 vars in 640 bytes} [Fri Sep 29 03:28:19 2023] GET /areas/ => generated 1772 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 23/25] 172.26.192.1 () {38 vars in 638 bytes} [Fri Sep 29 03:28:22 2023] GET /info/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 23/26] 172.26.192.1 () {38 vars in 662 bytes} [Fri Sep 29 03:28:22 2023] GET /browse_histories/ => generated 57 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 24/27] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:28:35 2023] POST /login/ => generated 27 bytes in 52 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 25/28] 172.26.192.1 () {38 vars in 654 bytes} [Fri Sep 29 03:28:36 2023] GET /carts/simple/ => generated 44 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 26/29] 172.26.192.1 () {38 vars in 695 bytes} [Fri Sep 29 03:28:44 2023] GET /search/?q=apple&page=1&page_size=6 => generated 1431 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+[pid: 2912|app: 0|req: 28/30] 172.26.192.1 () {38 vars in 638 bytes} [Fri Sep 29 03:28:50 2023] GET /info/ => generated 57 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 2912|app: 0|req: 28/31] 172.26.192.1 () {38 vars in 662 bytes} [Fri Sep 29 03:28:50 2023] GET /browse_histories/ => generated 57 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+Fri Sep 29 03:35:45 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Fri Sep 29 03:35:45 2023 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.21 (64bit) on [Fri Sep 29 11:36:14 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:15:05
+os: Linux-5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023
+nodename: CHpaofufu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /home/paofufu/Desktop/NewProject/tuling_mall
+writing pidfile to uwsgi.pid
+detected binary path: /home/paofufu/miniconda3/bin/uwsgi
+chdir() to /home/paofufu/Desktop/NewProject/tuling_mall
+your processes number limit is 31318
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 172.26.200.150:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33113 (port auto-assigned) fd 3
+Python version: 3.8.16 (default, Jun 12 2023, 18:09:05)  [GCC 11.2.0]
+Set PythonHome to /home/paofufu/miniconda3/
+Python main interpreter initialized at 0x19fb2e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x19fb2e0 pid: 3462 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3462)
+spawned uWSGI worker 1 (pid: 3485, cores: 2)
+spawned uWSGI worker 2 (pid: 3487, cores: 2)
+spawned uWSGI worker 3 (pid: 3489, cores: 2)
+spawned uWSGI worker 4 (pid: 3491, cores: 2)
+spawned uWSGI http 1 (pid: 3493)
+[pid: 3491|app: 0|req: 1/1] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:36:55 2023] POST /login/ => generated 27 bytes in 138 msecs (HTTP/1.1 200) 8 headers in 340 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 2/2] 172.26.192.1 () {38 vars in 654 bytes} [Fri Sep 29 03:36:56 2023] GET /carts/simple/ => generated 44 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 3/3] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:37:10 2023] GET /carts/simple/ => generated 523 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 4/4] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:37:14 2023] GET /info/ => generated 141 bytes in 14 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3485|app: 0|req: 1/5] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:37:14 2023] GET /browse_histories/ => generated 1305 bytes in 149 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 6/6] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:37:16 2023] GET /areas/ => generated 1772 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 6/7] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:37:16 2023] GET /addresses/ => generated 856 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 7/8] 172.26.192.1 () {42 vars in 707 bytes} [Fri Sep 29 03:37:21 2023] OPTIONS /addresses/4/ => generated 0 bytes in 1 msecs (HTTP/1.1 200) 8 headers in 430 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 8/9] 172.26.192.1 () {40 vars in 738 bytes} [Fri Sep 29 03:37:21 2023] DELETE /addresses/4/ => generated 27 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 219 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 9/10] 172.26.192.1 () {38 vars in 640 bytes} [Fri Sep 29 03:37:21 2023] GET /areas/ => generated 1772 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 208 bytes (1 switches on core 1)
+[pid: 3487|app: 0|req: 1/11] 172.26.192.1 () {38 vars in 648 bytes} [Fri Sep 29 03:37:21 2023] GET /addresses/ => generated 57 bytes in 127 msecs (HTTP/1.1 200) 6 headers in 214 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 11/12] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:37:31 2023] GET /areas/ => generated 1772 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 11/13] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:37:31 2023] GET /addresses/ => generated 596 bytes in 27 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 12/14] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:37:41 2023] GET /info/ => generated 141 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3489|app: 0|req: 1/15] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:37:41 2023] GET /browse_histories/ => generated 1305 bytes in 164 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 3485|app: 0|req: 2/16] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 03:37:43 2023] GET /areas/ => generated 1772 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 13/17] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 03:37:43 2023] GET /addresses/ => generated 596 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 14/18] 172.26.192.1 () {40 vars in 722 bytes} [Fri Sep 29 03:38:10 2023] GET /carts/ => generated 644 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 15/19] 172.26.192.1 () {40 vars in 720 bytes} [Fri Sep 29 03:38:14 2023] GET /info/ => generated 141 bytes in 50 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3485|app: 0|req: 3/20] 172.26.192.1 () {40 vars in 744 bytes} [Fri Sep 29 03:38:14 2023] GET /browse_histories/ => generated 1305 bytes in 56 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 17/21] 172.26.192.1 () {40 vars in 722 bytes} [Fri Sep 29 03:38:18 2023] GET /areas/ => generated 1772 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 17/22] 172.26.192.1 () {40 vars in 730 bytes} [Fri Sep 29 03:38:18 2023] GET /addresses/ => generated 596 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 19/23] 172.26.192.1 () {40 vars in 720 bytes} [Fri Sep 29 03:38:20 2023] GET /info/ => generated 141 bytes in 16 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 19/24] 172.26.192.1 () {40 vars in 744 bytes} [Fri Sep 29 03:38:20 2023] GET /browse_histories/ => generated 1305 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 20/25] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 03:38:28 2023] GET /info/ => generated 141 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3487|app: 0|req: 2/26] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 03:38:28 2023] GET /browse_histories/ => generated 1305 bytes in 36 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 21/27] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 03:38:34 2023] GET /carts/simple/ => generated 523 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 22/28] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 04:40:36 2023] GET /carts/simple/ => generated 523 bytes in 183 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 23/29] 172.26.192.1 () {40 vars in 721 bytes} [Fri Sep 29 04:40:39 2023] GET /info/ => generated 141 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
+[pid: 3489|app: 0|req: 2/30] 172.26.192.1 () {40 vars in 745 bytes} [Fri Sep 29 04:40:39 2023] GET /browse_histories/ => generated 1305 bytes in 111 msecs (HTTP/1.1 200) 6 headers in 221 bytes (1 switches on core 1)
+[pid: 3491|app: 0|req: 24/31] 172.26.192.1 () {40 vars in 731 bytes} [Fri Sep 29 04:40:41 2023] GET /addresses/ => generated 596 bytes in 34 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 1)
+[pid: 3485|app: 0|req: 4/32] 172.26.192.1 () {40 vars in 723 bytes} [Fri Sep 29 04:40:41 2023] GET /areas/ => generated 1772 bytes in 65 msecs (HTTP/1.1 200) 6 headers in 213 bytes (1 switches on core 0)
+[pid: 3491|app: 0|req: 25/33] 172.26.192.1 () {40 vars in 737 bytes} [Fri Sep 29 04:55:03 2023] GET /carts/simple/ => generated 523 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 220 bytes (1 switches on core 0)
