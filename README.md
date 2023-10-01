@@ -93,7 +93,7 @@ tuling_mall        # 后端文件
 
 填写自己的手机号码，可以用来接收平台发送的验证码
 
-![](imgs/容联云1.png)
+![容联云1.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/容联云1.png)
 
 ##### 1.3 修改yuntongxun工具包
 
@@ -101,7 +101,7 @@ tuling_mall        # 后端文件
 
 注意：其他地方无需修改
 
-![](imgs/容联云2.png)
+![容联云2.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/容联云2.png)
 
 ### 2 数据库
 
@@ -113,13 +113,13 @@ tuling_mall        # 后端文件
 
 本人是在Ubuntu子系统运行的，所以需要修改数据库运行的IP，例如`HOST`需要更改为您本人的IP
 
-![](imgs/MySQL.png)
+![MySQL.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/MySQL.png)
 
 ##### 2.2 Redis
 
 本人是在Ubuntu子系统运行的，Redis的`LOCATION`也需要更改为您本人的IP
 
-![](imgs/Redis.png)
+![Redis.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/Redis.png)
 
 ### 3 邮件发送
 
@@ -131,7 +131,7 @@ tuling_mall        # 后端文件
 
 如果使用其他邮箱作为发送方，就需要更改
 
-![](imgs/email.png)
+![email.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/email.png)
 
 ##### 3.2 修改邮箱视图
 
@@ -139,7 +139,7 @@ tuling_mall        # 后端文件
 
 请填写发件人邮箱和收件人邮箱
 
-![](imgs/email1.png)
+![email1.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/email1.png)
 
 ##### 3.3 同步与异步发邮件
 
@@ -149,7 +149,7 @@ tuling_mall        # 后端文件
 
 最后使用命令启动celery
 
-![](imgs/email2.png)
+![email2.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/email2.png)
 
 ### 4 支付宝支付
 
@@ -161,7 +161,7 @@ tuling_mall        # 后端文件
 
 支付宝开放平台：https://open.alipay.com/
 
-![](imgs/沙箱.png)
+![沙箱.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/沙箱.png)
 
 ##### 4.1 支付宝开发文档
 
@@ -185,7 +185,7 @@ tuling_mall        # 后端文件
 
 在沙箱环境中配置支付宝公钥，将**图灵商城公钥`app_publick_key.pem`**上传，就可以得到**支付宝公钥**
 
-![](imgs/alipay.png)
+![alipay.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/alipay.png)
 
 - 复制支付宝公钥内容，新建一个名为`alipay_public_key.pem`的文件
 
@@ -199,7 +199,7 @@ tuling_mall        # 后端文件
 
 **注意：支付宝公钥与图灵商城私钥存放位置**
 
-![](imgs/key.png)
+![key.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/key.png)
 
 ##### 4.3 修改支付配置
 
@@ -209,17 +209,17 @@ tuling_mall        # 后端文件
 
 - `ALIPAY_APPID`：请填写自己的沙箱环境中的APPID
 
-  ![](imgs/pay2.png)
+  ![pay2.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/pay2.png)
 
 - `ALIPAY_RETURN_URL`：因为本人是在Ubuntu子系统中运行的项目，所以网址的IP得更改成自己系统的IP
 
-![](imgs/pay.png)
+![pay.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/pay.png)
 
 ##### 4.4 沙箱账号可用来支付测试
 
 沙箱账号的买家账号可以用来进行支付测试~
 
-![](imgs/pay3.png)
+![pay3.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/pay3.png)
 
 ### 5 跨域白名单设置
 
@@ -227,7 +227,7 @@ tuling_mall        # 后端文件
 
 如果您不是在本地运行项目，而是在虚拟机上运行，同样需要添加跨域白名单
 
-![](imgs/cors.png)
+![cors.png](https://raw.github.com/paofufu123/tuling_mall/master/imgs/cors.png)
 
 ### 6 uwsgi配置文件
 
